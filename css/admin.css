@@ -1,0 +1,78 @@
+.body {
+  padding: 100px 300px;
+  font-family: sans-serif;
+  background-color: rgb(234, 237, 240);
+}
+.body .title {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 1px solid rgb(195, 194, 194);
+  height: 100px;
+  margin: 20px 0;
+  background-color: white;
+}
+.body .title h1 {
+  justify-self: left;
+  align-self: start;
+  margin: 0;
+  color: #65060b;
+}
+.body .title .search {
+  justify-self: left;
+  position: relative;
+}
+.body .title .search input {
+  box-sizing: border-box;
+  width: 300px;
+  height: 30px;
+  padding-left: 35px;
+}
+.body .title .search select {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.body .title .search .fa {
+  box-sizing: border-box;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  color: rgb(112, 111, 111);
+}
+.body .title a {
+  justify-self: start;
+}
+.body .title button {
+  width: 60px;
+  height: 30px;
+  background-color: #72090f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.body table {
+  border: 1px solid rgb(195, 194, 194);
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+.body table th {
+  border-top: 1px solid rgb(195, 194, 194);
+  border-bottom: 1px solid rgb(195, 194, 194);
+  padding: 10px;
+  color: #65060b;
+  text-align: left;
+}
+.body table td {
+  border-top: 1px solid rgb(195, 194, 194);
+  border-bottom: 1px solid rgb(195, 194, 194);
+  padding: 10px;
+  color: #65060b;
+}
+.body table td:last-child {
+  width: 50px;
+}
